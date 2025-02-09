@@ -1,0 +1,117 @@
+#header{
+    text-align: left;
+    background-color: rgb(28, 28, 28);
+    color: rgb(96, 96, 96);
+    height:50px;
+    position: absolute;
+    top:-25px;
+    width: 110%;
+    left:-2px;
+}
+
+#header-two{
+    text-align: left;
+    color:black;
+    position: absolute;
+    left:400px;
+    top:100px;
+    width:100%;
+}
+
+#add-task{
+    color: black;
+    border-radius: 8px;
+    border: solid rgb(53, 58, 66) 1px;
+    width: 35%;
+    align-content: center;
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    height: 30px;
+    font-size: 13px;
+}
+#add-task::placeholder{
+    opacity: 70%;
+    color:gray;
+}
+
+#add-button{
+    position: relative;
+    top: 192.5px;
+    left: 1040px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 105, 173);
+    border-radius: 5px;
+    width: 5%;
+    border: solid 2px rgb(68, 105, 173);
+}
+#add-button:hover{
+    opacity: 90%;
+}
+
+.block-tasks{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 50px;
+    width: 70%;
+    position: absolute;
+    top: 250px;
+    color: black;
+    left: 260px;
+}
+
+#delete{
+    position: relative;
+    top: 258px;
+    left: 1200px;
+    background-color: rgb(255, 255, 255);
+    border: solid cornflowerblue 1px;
+    border-radius: 4px;
+}
+#delete:hover{
+    opacity:70%;
+}
+#delete img {
+    width: 20px;
+    height: auto;
+}
+
+.task-item {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px; 
+    padding-top: 7px;
+    border-radius: 5px;
+    border: rgb(155, 155, 155) solid 1px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 100%;
+    min-height: 30px;
+    height: auto;
+    position:relative;
+    top: 20px;
+    left: -1px;
+}
+
+.task-item input[type="checkbox"]:checked + label {
+    text-decoration:line-through;
+}
+
+.task-item input[type="checkbox"]{
+    accent-color: rgb(92, 147, 250);
+    margin-left: 15px;
+}
+
+.delete-button{
+    position: absolute;
+    left: 947px;
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(155, 155, 155) 1px;
+    border-radius: 4px;
+    top: 4px;
+}
+.delete-button img{
+    width: 20px;
+}
+.delete-button:hover{
+    opacity:70%;
+}
