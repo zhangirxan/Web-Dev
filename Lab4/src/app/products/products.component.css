@@ -1,0 +1,33 @@
+.items {
+  text-decoration: none;
+  font-family: "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #0502a6;
+}
+.description {
+  text-decoration: none;
+  font-family: "Times New Roman", serif;
+  font-size: 17px;
+  font-weight: lighter;
+  color: #450000;
+}
+.container {
+  font-size: 24px;
+    font-family: helvetica;
+    padding: 10px;
+    position: absolute;
+    right: 700px;
+    top: 60px;
+    border: 1px solid rgb(222, 222, 222);
+    background-color: white;
+    width: 350px;
+    height: 380px;
+    text-align: center;
+}
+#enter {
+  color:#0502a6;
+  padding:10px;
+  font-size: 12px;
+  border: 1px solid rgb(160, 159, 159);
+}

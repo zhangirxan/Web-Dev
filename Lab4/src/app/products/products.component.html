@@ -1,0 +1,16 @@
+<div *ngFor="let goods of products">
+  <h2><a class="items" href="{{goods.productLink}}">{{ goods.name }}</a></h2>
+  <p class="description">{{ goods.description }}</p>
+  <p class="description">Price: ${{ goods.price }}</p>
+  <p class="description">Rating: {{goods.rating}}</p>
+  <img src="{{ goods.imageLink }}" alt="{{ goods.name }}" width="10%" ><br>
+  <button type="button" (click)="sharing(goods.id)">Share</button>
+</div>
+<div class = "container">
+    <p><input id="name" type="enter" placeholder="Name" ><br></p>
+    <p><input id="price" type="enter" placeholder="Price" ><br></p>
+    <p><input id="Rating" type="enter" placeholder="Rating" ><br></p>
+    <p><input id="Photo" type="enter" placeholder="Photo" ><br></p>
+    <p><input class="container-buttons" id="enter"type="button" value="Вставить"><br></p>
+</div>
+
